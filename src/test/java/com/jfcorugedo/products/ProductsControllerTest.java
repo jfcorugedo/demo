@@ -47,6 +47,7 @@ public class ProductsControllerTest {
 	
 	@Before
 	public void setUp() {
+		
 		endpoint = String.format("http://localhost:%d/v1/products", port);
 	}
 	
